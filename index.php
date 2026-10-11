@@ -2,7 +2,6 @@
   /**
    * first page seen
    * 
-   * hello
    */
 
 	// start session
