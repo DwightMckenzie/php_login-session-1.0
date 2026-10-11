@@ -1,6 +1,7 @@
 <?php
   declare(strict_types=1);
 
+  // commented here
   // ini_set('display_errors', '1');
   // error_reporting(E_ALL);
 
