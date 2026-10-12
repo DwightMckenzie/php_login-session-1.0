@@ -9,8 +9,8 @@
 
 
   // require fro the login info
-  require 'assets/url.php';
-	require 'assets/auth.php';
+  require 'includes/url.php';
+	require 'includes/auth.php';
 
 	isLoggedIn();
 

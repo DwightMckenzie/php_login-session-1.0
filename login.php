@@ -5,8 +5,8 @@
   // ini_set('display_errors', '1');
   // error_reporting(E_ALL);
 
-  require 'assets/session.php';
-  require 'assets/auth.php';
+  require 'includes/session.php';
+  require 'includes/auth.php';
   require 'classes/Database.php';
 
   start_secure_session();

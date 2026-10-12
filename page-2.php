@@ -1,8 +1,8 @@
 <?php
   declare(strict_types=1);
 
-  require 'assets/session.php';
-  require 'assets/auth.php';
+  require 'includes/session.php';
+  require 'includes/auth.php';
 
   start_secure_session();
   requireLogin();
