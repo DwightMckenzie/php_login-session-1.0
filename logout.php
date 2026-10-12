@@ -1,7 +1,7 @@
 <?php
   declare(strict_types=1);
 
-  require 'assets/session.php';
+  require 'includes/session.php';
 
   start_secure_session();
 

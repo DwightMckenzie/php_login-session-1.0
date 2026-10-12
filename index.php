@@ -7,8 +7,10 @@
 	// start session
 	session_start();
 
-  require 'assets/url.php';
-	require 'assets/auth.php';
+
+  // require fro the login info
+  require 'includes/url.php';
+	require 'includes/auth.php';
 
 	isLoggedIn();
 
