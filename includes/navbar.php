@@ -14,11 +14,11 @@
 	<div class="header">
 		<div class="row">
 			<div class="col-lg-10">
-				<!-- <h4><strong><?= $user_name; ?></strong></h4> -->
-				<h4><strong><?= e($user_name) ?></strong></h4>
-				<h4><strong><?= $user_id ?></strong></h4>
+				<!-- <h4><strong><= $user_name; ?></strong></h4> -->
+				<p><strong>User:</strong> <?= e($user_name) ?></p>
+				<p><strong>User Id:</strong> <?= $user_id ?></p>
 			</div>
-			<div class="col-lg-2" style="display:flex;justify-content:flex-end;">
+			<div class="col-lg-2 logout-btn">
 				<!-- <div class="button" style="margin-right:10px;">
 					<a href="profile.php" class="btn btn-sm btn-info">Profile</a>
 				</div> -->
@@ -57,4 +57,4 @@
 
 <!-- main container -->
 <div class="container">
-	<div class="content">
+	<!-- <div class="content">-->

@@ -13,5 +13,11 @@
   include 'includes/header.php';
   include 'includes/navbar.php';
 ?>
-  <div>Hello page 1</div>
+	
+	<div class="row">	
+		<div class="col-md-12">
+			<h4>Welcome to <?= $pg_title; ?></h4>
+		</div>
+	</div>
+	
 <?php include 'includes/footer.php'; ?>

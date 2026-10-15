@@ -10,7 +10,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="keywords" content="" />
 		<title><?php echo $app_name; ?> - <?php if(isset($pg_title)) { echo $pg_title; }; ?></title>
-		<!-- <title>Salary - <?= $pg_title; ?></title> -->
+		<!-- <title>Salary - <= $pg_title; ?></title> -->
 		<link rel="icon" href="./imgs/salary-favicon.png"/>
 		<meta name="description" content="Salary Session Beta v3.2 2023" />
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">

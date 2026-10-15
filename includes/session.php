@@ -5,18 +5,17 @@
  * 
  */
 
+// strict values
 declare(strict_types=1);
 
-
-
-
-
+// patch - 1.0
 function start_secure_session(): void
 {
     if (session_status() === PHP_SESSION_ACTIVE) {
         return;
     }
 
+	// what is the protocol
     $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
             || (($_SERVER['SERVER_PORT'] ?? null) == 443);
 
@@ -31,9 +30,6 @@ function start_secure_session(): void
     ini_set('session.use_strict_mode', '1');
     session_start();
 }
-
-
-
 
 
 // ORIG for HTTPS
@@ -55,6 +51,8 @@ function start_secure_session(): void
 //     ini_set('session.use_strict_mode', '1');
 //     session_start();
 // }
+
+
 
 /** HTML-escape output */
 function e(?string $value): string
